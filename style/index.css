@@ -1,0 +1,132 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: rgb(84, 88, 91);;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+a{
+    color: #0093be;
+}
+
+.navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: all 0.3s;
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.14);
+    border-bottom: solid #0093be
+
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar.compressed {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .active{
+    color: #0093be !important;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#stage {
+    background: url('../img/hospital_web2.jpg') center center no-repeat;
+    /* <a style="font-size:.5rem" href="https://www.freepik.com/free-photo/blurred-abstract-background-interior-view-looking-out-toward-to-empty-office-lobby-and-entrance-doors-and-glass-curtain-wall-with-frame_1254639.htm">Designed by Freepik</a> */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 80%;
+    width: 100%;
+    padding: 108px 1em 1em 1em;
+}
+
+#stage-content {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.627);
+}
+
+#stage-content>img {
+    width: 40%;
+    border-radius: 10px;
+    margin-right: auto;
+}
+
+#stage-info {
+    max-width: 25em;
+    padding-top: 1em;
+}
+
+.section {
+    padding: 12%;
+}
+
+.text-emphasis{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+}
+
+.bg-light-gray {
+    background: #F8F9FA;
+}
+
+.text-item-label {
+    font-weight: bold;
+    letter-spacing: .03rem;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 100%;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.container{
+    max-width: 720px !important;
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar .active {    
+        background: #0093be;
+        color: white !important;
+    }
+
+ }
